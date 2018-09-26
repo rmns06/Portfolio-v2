@@ -1,0 +1,92 @@
+.creaVisuelle {
+	width: 80%;
+	
+	// padding-top: 75px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #009d9f;
+	font-size: 5rem;
+
+	.accroche {
+		width: 100vw;
+		margin: 25px 0;
+		
+	}
+
+	figure {
+		max-width: 420px;
+
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	.container {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		margin: 10px;
+	}
+	.overlay {
+		position: absolute;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.5);
+		color: #f1f1f1;
+		width: 100%;
+		transition: .5s ease;
+		opacity: 0;
+		color: white;
+		font-size: 20px;
+		padding: 8%;
+		text-align: center;
+	}
+	.container:hover .overlay {
+		opacity: 1;
+	}
+
+	.fullW {
+		max-width: 1300px;
+		img{
+			border-radius: 8px;
+		}
+	}
+	
+}
+.web{
+	padding: 5% 0;
+	display: flex;
+	flex-flow: row wrap;
+	p{	
+		font-size: 2rem;
+		color: rgb(73, 73, 73);
+	}
+	figure{
+		padding: 2% 0;
+		min-width: 80%;
+	}
+
+}
+.form{
+	width: 80%;
+	
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+	
+	.accroche{
+		width: 100vw;
+		margin: 25px 0;
+		font-size: 7em;
+		color: #009d9f;
+	}
+}

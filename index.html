@@ -1,52 +1,225 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio v2</title>
+    <title>Portfolio Romain</title>
+    <meta name="author" lang="fr" content="romain senechal">
+    <meta name="copyright" content="rom webdesign">
+    <meta name="category" content="portfolio"> 
+    <meta name="robots" content="index, follow">
+    <meta name="Description" content="V2 du portfolio de romain senechal avec des créations graphiques, prinf et réalisation de site web">
+    <title>Portfolio Romain Senechal</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Unlock" rel="stylesheet"> 
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/assets/js/app.js" async></script>
 </head>
+
 <body>
-    <div class="main-container">
+
+    <header class="header">
         <nav class="top-right open">
-            <a class="disc l1">
+            <a href="#graphique" class="disc l1">
                 <div>Créa graphique</div>
             </a>
-            <a class="disc l2">
+            <a  href="#web" class="disc l2">
                 <div>Créa web</div>
             </a>
-            <a class="disc l3">
+            <a href="#print" class="disc l3">
                 <div>Print & logo</div>
             </a>
-            <a class="disc l4">
+            <a href="#contact" class="disc l4">
                 <div>Contact</div>
             </a>
             <a class="disc l5 toggle">
                 Menu
             </a>
         </nav>
-
-        <header class="header">
+        
             
+        
                 <h1>Romain Senechal</h1>
                 <h2>My name is</h2>
-                <span class="nuage1"><img src="/assets/img/nuage1.svg" alt="nuage1"></span>
-                <span class="nuage2"><img src="/assets/img/nuage2.svg" alt="nauge2" srcset=""></span>
-                <span class="boat"><img src="/assets/img/boat.svg" alt="vague1"></span>
-                <span class="leftwave vague1"><img src="/assets/img/wave1.svg" alt="vague"></span>
-                <span class="rightwave vague2"><img src="/assets/img/wave2.svg" alt="vague"></span>
-                <span class="leftwave vague3"><img src="/assets/img/wave1.svg" alt="vague"></span>
-                <span class="rightwave vague4"><img src="/assets/img/wave2.svg" alt="vague"></span>
-                <span class="leftwave vague5"><img src="/assets/img/wave1.svg" alt="vague"></span>
-                <span class="rightwave vague6"><img src="/assets/img/wave2.svg" alt="vague"></span>
-                <span class="leftwave vague7"><img src="/assets/img/wave1.svg" alt="vague"></span>
-                <span class="eclair"><img src="/assets/img/eclair.svg" alt="Eclair"></span>
-                <span class="kraken"><img src="/assets/img/kraken.svg" alt="Le kraken"></span>
-                
-        </header>
+                <span class="nuage1 tab"><img src="/assets/img/nuage1.svg" alt="nuage1"></span>
+                <span class="nuage2 tab"><img src="/assets/img/nuage2.svg" alt="nauge2" srcset=""></span>
+                <span class="boat tab"><img src="/assets/img/boat.svg" alt="vague1"></span>
+                <span class="leftwave vague1 tab"><img src="/assets/img/wave1.svg" alt="vague"></span>
+                <span class="rightwave vague2 tab"><img src="/assets/img/wave2.svg" alt="vague"></span>
+                <span class="leftwave vague3 tab"><img src="/assets/img/wave1.svg" alt="vague"></span>
+                <span class="rightwave vague4 tab"><img src="/assets/img/wave2.svg" alt="vague"></span>
+                <span class="leftwave vague5 tab"><img src="/assets/img/wave1.svg" alt="vague"></span>
+                <span class="rightwave vague6 tab"><img src="/assets/img/wave2.svg" alt="vague"></span>
+                <span class="eclair tab"><img src="/assets/img/eclair.svg" alt="Eclair"></span>
+                <span class="kraken tab"><img src="/assets/img/kraken.svg" alt="Le kraken"></span>
+        
+        
 
-    </div>
+    </header>
+
+
+    <main>
+
+        <article class="bio">
+            <h1>Bio</h1>
+            <p>Webdesigner domicilié dans le vaucluse, passionné avant tout par les nouvelles technologies et le web, je vous invite à parcourir mon portfolio afin de voir mes dernières réalisation</p>
+            <p><strong>Créatif</strong> et <strong>réactif</strong>, n'hésitez pas à me contacter pour vos projets</p>
+
+        </article>
+
+        <img class="bgmobile" src="assets/img/bcg.jpg" alt="" srcset="">
+        <section class="creaVisuelle" id="graphique">
+            <h2 class="accroche">Créations graphique</h2>
+
+            <figure class="container">
+                <img src="/assets/img/creavisuelle/aigle.png" alt="">
+                <figcaption class="overlay">Aigle style origami</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/creavisuelle/dino.png" alt="">
+                <figcaption class="overlay">T-rex style origami</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/creavisuelle/cerf.png" alt="">
+                <figcaption class="overlay">cert style origami</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/creavisuelle/plongeur.png" alt="">
+                <figcaption class="overlay">Plongeur papercraft</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/creavisuelle/lechat.png" alt="">
+                <figcaption class="overlay">Carte halloween</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/creavisuelle/lepoulpe.png" alt="">
+                <figcaption class="overlay">Le poulpe papercraft</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/creavisuelle/singe.png" alt="">
+                <figcaption class="overlay">Jungle papercraft</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/creavisuelle/monstre.png" alt="">
+                <figcaption class="overlay">Monstre mignons</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/creavisuelle/lepoulpeetlechat.png" alt="">
+                <figcaption class="overlay">Un poulpe in the city</figcaption>
+            </figure>
+
+
+        </section>
+
+        <section class="creaVisuelle" id="print">
+            <h2 class="accroche">Identité Visuelle</h2>
+
+            <figure class="container fullW">
+                <img src="/assets/img/identitévisuelle/bus1.jpg" alt="Affiche Bus">
+                <figcaption class="overlay">Affiche theatre Avignon</figcaption>
+            </figure>
+
+            <figure class="container">
+                <img src="/assets/img/identitévisuelle/teeshirtBlasonnl.jpg" alt="Teeshirt blason">
+                <figcaption class="overlay">Teeshirt blason</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/identitévisuelle/motor1.jpg" alt="Carte de visite Motor">
+                <figcaption class="overlay">Carte de visite Motor</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/identitévisuelle/bouteilleBlendjus.jpg" alt="Bouteille Blendjus">
+                <figcaption class="overlay">Bouteille Blendjus</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/identitévisuelle/flagBlendjus.jpg" alt="Drapeau Blendjus">
+                <figcaption class="overlay">Drapeau Blendjus</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/identitévisuelle/tamponBlason.jpg" alt="Tampon Blason">
+                <figcaption class="overlay">Tampon Blason</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/identitévisuelle/lego.jpg" alt="Mise en page lego">
+                <figcaption class="overlay">Mise en page lego</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/identitévisuelle/motor2.jpg" alt="Carte de visite Motor v2">
+                <figcaption class="overlay">Carte de visite motor2</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/identitévisuelle/blendjuscadre.jpg" alt="Cadre blendjus">
+                <figcaption class="overlay">Cadre Blendjus</figcaption>
+            </figure>
+            <figure class="container">
+                <img src="/assets/img/identitévisuelle/paloma.jpg" alt="Affiche Paloma">
+                <figcaption class="overlay">Affiche Paloma</figcaption>
+            </figure>
+        </section>
+
+        <section class="creaVisuelle web" id="web">
+            <h2>Création Web</h2>
+            <figure>
+                    <a href="https://peaceful-galileo-ccb49f.netlify.com/" target="blank" ><img src="/assets/img/web/gentlemen.jpg" alt="Gentlemen"></a>
+                    <figcaption>
+                        <p>Réalisation du site Gentlemen, barbershop à Entraigues sur la sorgue</p>
+                    </figcaption>
+            </figure>
+
+            <figure>
+                    <a href="http://rswebdesign.yn.fr/horizon-telecom/" target="blank" ><img src="/assets/img/web/horizontel.jpg" alt="Horizon"></a>
+                    <figcaption>
+                        <p>Refonte du site Horizon Télécom (projet)</p>
+                    </figcaption>
+            </figure>
+
+            <figure>
+                    <a href="https://romainsenechal.netlify.com/" target="blank" ><img src="/assets/img/web/portfolioV1.jpg
+                        " alt="Portfolio v1"></a>
+                    <figcaption>
+                        <p>Mon premier portfolio</p>
+                    </figcaption>
+            </figure>
+
+
+
+
+            <h2 class="accroche" id="contact">Contact</h2>
+        </section>
+
+        <section>
+
+            <div id='wrapper' class="formulaire">
+                <form action='' class='form' method="POST" netlify>
+                    <p class='field required half'>
+                        <label class='label required' for='name'>Nom</label>
+                        <input class='text-input' id='name' name='name' required type='text'>
+                    </p>
+                    <p class='field required half'>
+                        <label class='label' for='email'>E-mail</label>
+                        <input class='text-input' id='email' name='email' required type='email'>
+                    </p>
+                    <p class='field'>
+                        <label class='label' for='message'>Message</label>
+                        <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea>
+                    </p>
+                    <p class='field'>
+                        <input class='button' type='submit' value='Envoi'>
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>© Romain Webdesign</p>
+            <p>romain.senechal06@gmail.com</p>
+            <p>v1 du portfolio <a href="https://romainsenechal.netlify.com">ici</a></p>
+        </footer>
+
+    </main>
+
 </body>
+
 </html>
